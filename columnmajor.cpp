@@ -7,14 +7,16 @@ int main(){
     cout<<"enter number of columns = ";
     cin>>column;
     int list[column][row];
-    for (int i = 0; i < row; i++){
-        for (int j = 0; j < column; j++){
+    
+       for (int j = 0; j < column; j++){
+            for (int i = 0; i < row; i++){
             cout<<"enter elements ";
             cin>>list[i][j];
         }
 }
-    for (int i = 0; i < row; i++){
-        for (int j = 0; j < column; j++){
+   
+     for (int j = 0; j < column; j++){
+           for (int i = 0; i < row; i++){
             printf("%u",list[i][j]);
         }
         cout<<"\n";
